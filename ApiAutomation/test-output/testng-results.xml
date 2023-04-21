@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-19T19:22:31 IST" name="Suite" finished-at="2023-04-19T19:22:37 IST" duration-ms="5549">
+    <groups>
+    </groups>
+    <test started-at="2023-04-19T19:22:31 IST" name="Test" finished-at="2023-04-19T19:22:37 IST" duration-ms="5549">
+      <class name="api_testing.DeleteProduct">
+        <test-method signature="deleteProductFromApp()[pri:0, instance:api_testing.DeleteProduct@18d87d80]" started-at="2023-04-19T19:22:37 IST" name="deleteProductFromApp" finished-at="2023-04-19T19:22:37 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductFromApp -->
+      </class> <!-- api_testing.DeleteProduct -->
+      <class name="api_testing.PlaceOrder">
+        <test-method signature="placeOrders()[pri:0, instance:api_testing.PlaceOrder@1af2d44a]" started-at="2023-04-19T19:22:36 IST" name="placeOrders" finished-at="2023-04-19T19:22:37 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrders -->
+      </class> <!-- api_testing.PlaceOrder -->
+      <class name="api_testing.AddProduct">
+        <test-method signature="AddProductToApp()[pri:0, instance:api_testing.AddProduct@1e04fa0a]" started-at="2023-04-19T19:22:36 IST" name="AddProductToApp" finished-at="2023-04-19T19:22:36 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToApp -->
+      </class> <!-- api_testing.AddProduct -->
+      <class name="api_testing.Loginautomation">
+        <test-method signature="loginPage()[pri:0, instance:api_testing.Loginautomation@2b91004a]" started-at="2023-04-19T19:22:31 IST" name="loginPage" finished-at="2023-04-19T19:22:36 IST" duration-ms="4743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+      </class> <!-- api_testing.Loginautomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
