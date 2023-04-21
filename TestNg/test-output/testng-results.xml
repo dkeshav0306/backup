@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T21:07:14 IST" name="Default suite" finished-at="2023-04-18T21:07:14 IST" duration-ms="374">
+    <groups>
+      <group name="regression">
+        <method signature="SoftAsserttt.verifyDashboordAfterLogin()[pri:2, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" name="verifyDashboordAfterLogin" class="testngtest.SoftAsserttt"/>
+        <method signature="SoftAsserttt.verifyDashbodBlocks()[pri:3, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" name="verifyDashbodBlocks" class="testngtest.SoftAsserttt"/>
+        <method signature="SoftAsserttt.verifytitleofpage()[pri:1, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" name="verifytitleofpage" class="testngtest.SoftAsserttt"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="SoftAsserttt.verifyDashboordAfterLogin()[pri:2, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" name="verifyDashboordAfterLogin" class="testngtest.SoftAsserttt"/>
+        <method signature="SoftAsserttt.verifyurlofpage()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" name="verifyurlofpage" class="testngtest.SoftAsserttt"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-04-18T21:07:14 IST" name="Default test" finished-at="2023-04-18T21:07:14 IST" duration-ms="374">
+      <class name="testngtest.RegressionTestCheckSequence">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="beforeSuite" finished-at="2023-04-18T21:07:14 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="initBrowser" finished-at="2023-04-18T21:07:14 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+
+at testngtest.SoftAsserttt.initBrowser(SoftAsserttt.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="beforeTest" finished-at="1970-01-01T05:30:00 IST" depends-on-methods="testngtest.SoftAsserttt.initBrowser" duration-ms="-1681832234402" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="befroeclass()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="befroeclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234447" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befroeclass -->
+        <test-method is-config="true" signature="checkTextOnLoginPage()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="checkTextOnLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234482" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTextOnLoginPage -->
+        <test-method signature="verifyloginaftercurrectinput()[pri:-1, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="verifyloginaftercurrectinput" finished-at="2023-04-18T21:07:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+
+at testngtest.SoftAsserttt.initBrowser(SoftAsserttt.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginaftercurrectinput -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234544" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="checkTextOnLoginPage()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="checkTextOnLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234562" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTextOnLoginPage -->
+        <test-method signature="verifyurlofpage()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="verifyurlofpage" finished-at="2023-04-18T21:07:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+
+at testngtest.SoftAsserttt.initBrowser(SoftAsserttt.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyurlofpage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234593" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="checkTextOnLoginPage()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="checkTextOnLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234607" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTextOnLoginPage -->
+        <test-method signature="verifytitleofpage()[pri:1, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="verifytitleofpage" finished-at="2023-04-18T21:07:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+
+at testngtest.SoftAsserttt.initBrowser(SoftAsserttt.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitleofpage -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234638" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="checkTextOnLoginPage()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="checkTextOnLoginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234649" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTextOnLoginPage -->
+        <test-method signature="verifyDashboordAfterLogin()[pri:2, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="verifyDashboordAfterLogin" finished-at="2023-04-18T21:07:14 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+WebDriverManager cannot be resolved
+
+at testngtest.SoftAsserttt.initBrowser(SoftAsserttt.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboordAfterLogin -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="logout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234673" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="verifyDashbodBlocks()[pri:3, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="verifyDashbodBlocks" finished-at="2023-04-18T21:07:14 IST" depends-on-methods="testngtest.SoftAsserttt.verifyDashboordAfterLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SoftAsserttt.verifyDashbodBlocks()[pri:3, instance:testngtest.RegressionTestCheckSequence@5b03b9fe] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SoftAsserttt.verifyDashbodBlocks()[pri:3, instance:testngtest.RegressionTestCheckSequence@5b03b9fe] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashbodBlocks -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="afterclass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234689" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="afterTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1681832234694" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearddown()[pri:0, instance:testngtest.RegressionTestCheckSequence@5b03b9fe]" started-at="2023-04-18T21:07:14 IST" name="tearddown" finished-at="2023-04-18T21:07:14 IST" duration-ms="20" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "testngtest.SoftAsserttt.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "testngtest.SoftAsserttt.driver" is null
+at testngtest.SoftAsserttt.tearddown(SoftAsserttt.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearddown -->
+      </class> <!-- testngtest.RegressionTestCheckSequence -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
